@@ -1,0 +1,13 @@
+
+/* Import GoogleFonts ( Inter 400/700 - Lexand Deca 400) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+	--bright-orange: hsl(31, 77%, 52%);
+	--dark-cyan: hsl(184, 100%, 22%);
+	--very-dark-cyan: hsl(179, 100%, 13%);
+	/* Neutral */
+	--transparent-white: hsla(0, 0%, 100%, 0.75); /* (paragraphs)*/
+	--very-light-gray: hsl(0, 0%, 95%); /* (background, headings, buttons)*/
+
+}
