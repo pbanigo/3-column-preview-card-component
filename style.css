@@ -76,20 +76,40 @@ main {
 	color: hsl(228, 45%, 44%); 
 }
 
-#orange {
+#orange{
 	color: var(--bright-orange); 
 
 }
+ #orange:hover {
+ 	background-color: var(--bright-orange);
+ 	color: var(--transparent-white);
+ 	border: 2px solid var(--transparent-white);
+ 	cursor: pointer;
+ }
 
 #cyan {
 	color: var(--dark-cyan);
 
 }
 
+
+ #cyan:hover {
+ 	background-color: var(--dark-cyan);
+ 	color: var(--transparent-white);
+ 	border: 2px solid var(--transparent-white);
+ 	cursor: pointer;
+ }
+
 #dark-cyan {
 	color: var(--very-dark-cyan); 
 
 }
+ #dark-cyan:hover {
+ 	background-color: var(--very-dark-cyan);
+ 	color: var(--transparent-white);
+ 	border: 2px solid var(--transparent-white);
+ 	cursor: pointer;
+ }
 
 @media only screen and (min-width: 900px) {
 	main {
