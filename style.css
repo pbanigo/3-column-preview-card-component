@@ -118,6 +118,13 @@ main {
 		margin-top: 100px;
 
 	}
+	.card {
+		display: flex;
+		flex-direction: column;
+		min-height: 400px;
+	    justify-content: space-around;
+	    align-items: baseline;
+	}
 	.sedan {
 	border-radius: 10px 0 0 10px;
 	}
